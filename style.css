@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+section {
+  padding: 60px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: white;
+}
+
+.hero h1 span {
+  color: #00d9ff;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #00d9ff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.projects .project {
+  margin: 20px 0;
+}
+
+.contact a {
+  color: #00d9ff;
+  text-decoration: none;
+}
